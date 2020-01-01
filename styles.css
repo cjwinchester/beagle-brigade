@@ -1,0 +1,117 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+body {
+  background-color: #FEFCF9;
+  color: #111;
+  font-size: 16pt;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: 1.3;
+  margin: 40px auto;
+  max-width: 768px;
+  padding: 0 1em;
+  overflow-x: hidden;
+}
+
+a {
+  color: steelblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p.intro {
+  text-transform: uppercase;
+  font-size: 10pt;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+img.lede-pic {
+  width: 250px;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lobster';
+  font-size: 2.5em;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  line-height: 1.1;
+  margin-top: 10px;
+}
+
+h3 {
+  margin: 40px 0 10px 0;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+sup {
+  vertical-align: top;
+  font-size: 0.6em;
+}
+
+.label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 2px 5px;
+  font-size: 9pt;
+  text-transform: uppercase;
+  background: #FEFCF9;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  min-width: 200px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+}
+
+.flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: -0.25rem 0;
+}
+
+.col {
+  flex: 1 0 25%;
+  max-width: calc(33% - 1rem);
+  padding: 0;
+  margin: 0.25rem 0.25rem;
+  position: relative;
+}
+
+footer {
+  font-size: 12pt;
+}
+
+@media (max-width: 600px) {
+  .flex-grid {
+    display: block;
+  }
+
+  .col {
+    width: 100%;
+    max-width: 100%;
+  }
+}
