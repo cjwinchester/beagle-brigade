@@ -1,7 +1,6 @@
 /*
-  Also an excuse to play around with lazy image loading -- guidance from:
+  This duder was also an excuse to play around with lazy image loading -- guidance from:
     👉 https://www.smashingmagazine.com/2019/05/hybrid-lazy-loading-progressive-migration-native/
-    👉 https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video
     👉  https://css-tricks.com/preventing-content-reflow-from-lazy-loaded-images/
 */
 document.addEventListener('DOMContentLoaded', function() {
